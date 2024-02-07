@@ -1,0 +1,51 @@
+.wrap-login {
+  width: 390px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 77px 55px 33px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.wrap-input {
+  width: 100%;
+  position: relative;
+  margin-bottom: 37px;
+}
+
+.login-form-btn {
+  font-size: 15px;
+  color: #fff;
+  background: #000;
+  line-height: 1.2;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px; 
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #000;
+}
+
+.sign-up-container {
+  text-align: center;
+  margin-top: 2px;
+}
+
+.sign-up-link {
+  margin-top: 5px; 
+}
+
+

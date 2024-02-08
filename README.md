@@ -13,6 +13,23 @@ It is a web app of E learing app, which used to help practicing test automation.
 
 ## How to Use
 ### 1. Clone this Repository
-<code>git clone </code>
+```
+git clone https://github.com/AnjarTiyo/e-learning-app.git
+cd e-learning-app
+```
 ### 2. Startup Backend
-### 3. Startup Frontend
+```
+export SECRET_KEY=<your_secret_key>
+npm start
+```
+change <your_secret_key> with your own secret key
+
+### 3. Startup Frontend (local only)
+on the new terminal run:
+```
+cd frontend
+npm start
+```
+
+## After startup
+Now your Frontend app run on port 3000 and your backend services is run on port 5001
